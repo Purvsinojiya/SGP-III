@@ -43,7 +43,7 @@ function ProductDetail() {
   const totalPrice = product.productPrice * quantity;
 
   return (
-    <div className="max-w-md mx-auto mt-8 p-8 border shadow-md rounded-lg">
+    <div className="max-w-md mx-auto mt-8 p-8 border shadow-md rounded-lg bg-orange-300">
       <h2 className="text-2xl font-bold mb-4">{product.productName}</h2>
       <img src={product.imageUrl} alt={product.productName} className="w-full h-64 object-cover mb-4 rounded" />
       <p className="text-lg font-bold mb-2">Price: ${product.productPrice}</p>
